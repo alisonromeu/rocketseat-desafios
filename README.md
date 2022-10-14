@@ -1,2 +1,3 @@
-# rocketseat-desafios-social-tree
-Desafios da Rocketseat
+# Desafios da plataforma Rocketseat
+
+Cada branch é um desafio concluído.
