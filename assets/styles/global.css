@@ -1,0 +1,81 @@
+:root {
+    --body-bg-color: #faf7fd;
+    --purple: #bb99dd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.imageUser {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 2px;
+    border-radius: 100%;
+    border: 2px solid var(--purple);
+    margin-bottom: 0.75rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkText {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.linkItem {
+    width: 320px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid var(--purple);
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.linkItem a {
+    color: var(--purple);
+    text-decoration: none;
+}
+
+.socialList {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialItem {
+    margin-top: 3rem;
+    margin-inline: 1rem;
+}
